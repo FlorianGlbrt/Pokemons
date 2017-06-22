@@ -1,0 +1,10 @@
+{
+    "name": "mon-app",
+    "require": {
+        "cakephp/cakephp": "2.5.6",
+	"twbs/bootstrap": "3.1.1"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}

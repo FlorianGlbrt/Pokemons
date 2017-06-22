@@ -1,0 +1,17 @@
+body{
+    background: url("/img/default-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#milieu{
+    background-color: #bbbbbb;
+    margin-bottom: 0px;
+}
+
+.input-group-addon {
+    min-width:125px;
+    text-align:left;
+}
