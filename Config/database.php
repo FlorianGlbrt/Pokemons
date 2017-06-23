@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  *
  *
@@ -57,9 +57,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'florianguilbert',
-		'password' => 'Rahf3Yoy',
-		'database' => 'testBootCake',
+		'login' => 'u608754445_flo',
+		'password' => 'guibs199',
+		'database' => 'u608754445_poke',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
@@ -68,10 +68,10 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'login' => 'u608754445_flo',
+		'password' => 'guibs199',
+		'database' => 'u608754445_poke',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 }

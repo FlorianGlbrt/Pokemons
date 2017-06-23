@@ -1421,3 +1421,91 @@ Stack Trace:
 #3 /home/florianguilbert/PhpstormProjects/test_boot_cake/APP/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-06-23 08:39:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'florianguilbert\'@\'10.2.1.18\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('joueurs')
+#5 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/u608754445/public_html/Controller/JoueursController.php(17): Model->find('all')
+#8 [internal function]: JoueursController->index()
+#9 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#10 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#12 /home/u608754445/public_html/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-06-23 09:13:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1226] User \'u608754445_flo\' has exceeded the \'max_user_connections\' resource (current value: 3)',
+  'enabled' => true,
+)
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokemons')
+#5 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /home/u608754445/public_html/Controller/PokemonsController.php(62): Model->__call('findById', Array)
+#7 /home/u608754445/public_html/Controller/PokemonsController.php(62): Pokemon->findById('3')
+#8 [internal function]: PokemonsController->fight()
+#9 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PokemonsController), Array)
+#10 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#12 /home/u608754445/public_html/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-06-23 09:13:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1226] User \'u608754445_flo\' has exceeded the \'max_user_connections\' resource (current value: 3)',
+  'enabled' => true,
+)
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokemons')
+#5 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /home/u608754445/public_html/Controller/PokemonsController.php(62): Model->__call('findById', Array)
+#7 /home/u608754445/public_html/Controller/PokemonsController.php(62): Pokemon->findById('3')
+#8 [internal function]: PokemonsController->fight()
+#9 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PokemonsController), Array)
+#10 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#12 /home/u608754445/public_html/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-06-23 09:13:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1226] User \'u608754445_flo\' has exceeded the \'max_user_connections\' resource (current value: 3)',
+  'enabled' => true,
+)
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokemons')
+#5 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /home/u608754445/public_html/Controller/PokemonsController.php(62): Model->__call('findById', Array)
+#7 /home/u608754445/public_html/Controller/PokemonsController.php(62): Pokemon->findById('3')
+#8 [internal function]: PokemonsController->fight()
+#9 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PokemonsController), Array)
+#10 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#12 /home/u608754445/public_html/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

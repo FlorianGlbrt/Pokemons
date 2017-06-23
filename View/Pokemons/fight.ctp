@@ -23,6 +23,8 @@
     <br><br>
     <?php
     while($p1['Pokemon']['pv'] >= 0 && $p2['Pokemon']['pv'] >= 0){
+        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau'];
+        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau'];
         ?>
         <div class="row text-center">
             <?php
@@ -49,8 +51,6 @@
         </div>
         <br><br>
         <?php
-        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau'];
-        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau'];
     }
     if ($p1['Pokemon']['pv'] <= 0 && $p2['Pokemon']['pv'] <= 0){
         ?>
