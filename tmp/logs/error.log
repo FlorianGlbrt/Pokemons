@@ -1509,3 +1509,126 @@ Stack Trace:
 #11 /home/u608754445/public_html/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
 #12 /home/u608754445/public_html/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2017-06-23 11:53:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u608754445_flo\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('joueurs')
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(17): Model->find('all')
+#8 [internal function]: JoueursController->index()
+#9 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#10 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#12 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/florianguilbert/PhpstormProjects/poke/index.php(8): require('/home/floriangu...')
+#14 {main}
+2017-06-26 16:34:03 Error: [MissingTableException] Table pokedexes for model Pokedex was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'pokedexes',
+  'class' => 'Pokedex',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokedexes')
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(18): Model->find('all')
+#4 [internal function]: JoueursController->index()
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#8 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-06-26 16:34:15 Error: [MissingTableException] Table pokedexes for model Pokedex was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'pokedexes',
+  'class' => 'Pokedex',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokedexes')
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(18): Model->find('all')
+#4 [internal function]: JoueursController->index()
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#8 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-06-26 16:37:53 Error: [MissingTableException] Table pokedexes for model Pokedex was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'pokedexes',
+  'class' => 'Pokedex',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokedexes')
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(17): Model->find('all')
+#4 [internal function]: JoueursController->index()
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#8 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-06-26 16:37:58 Error: [MissingTableException] Table pokedexes for model Pokedex was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'pokedexes',
+  'class' => 'Pokedex',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokedexes')
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(17): Model->find('all')
+#4 [internal function]: JoueursController->index()
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#8 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-06-26 16:38:07 Error: [MissingTableException] Table pokedexes for model Pokedex was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'pokedexes',
+  'class' => 'Pokedex',
+  'ds' => 'default',
+)
+Request URL: /joueurs/index
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3566): Model->setSource('pokedexes')
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Controller/JoueursController.php(17): Model->find('all')
+#4 [internal function]: JoueursController->index()
+#5 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(JoueursController), Array)
+#6 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(JoueursController), Object(CakeRequest))
+#8 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-06-26 17:09:07 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING) in [/home/florianguilbert/PhpstormProjects/poke/View/Joueurs/index.ctp, line 81]
+2017-06-26 17:09:07 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING)
+Request URL: /
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

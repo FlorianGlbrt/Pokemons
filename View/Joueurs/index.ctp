@@ -72,13 +72,15 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
 
 <?php
     foreach ($joueurs as $joueur):
-        echo $this->element('formPoke', array('joueur' => $joueur));?>
+        echo $this->element('formPoke', array('joueur' => $joueur ,'pokedexs' => $pokedexs));?>
         <?php
+    endforeach;
 
         echo "<br><br>";
-        foreach ($joueur['Pokemon'] as $pokemon):
-            echo $this->element('zoomPoke', array('pokemon' => $pokemon));
+        foreach ($pokedexs as $pokedex):
+            foreach ($pokedex['Pokemon'] as $pokemon):
+                echo $this->element('zoomPoke', array('pokemon' => $pokemon , 'pokedex' => $pokedex['Pokedex'], 'types' => $pokedex['Type']));
+            endforeach;
         endforeach;
-    endforeach;
-; ?>
+        ?>
 

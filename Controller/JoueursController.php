@@ -8,13 +8,14 @@
  */
 class JoueursController extends AppController
 {
-    public $uses = array('Pokemon', 'Joueur');
+    public $uses = array('Pokemon', 'Joueur','Type','Pokedex');
     public $helpers = array('Html','Form','Session','Js');
     public $components = array('Session','RequestHandler');
     public $layout = 'default';
 
     public function index(){
         $this->set('joueurs',$this->Joueur->find('all'));
+        $this->set('pokedexs',$this->Pokedex->find('all'));
     }
 
     public function add(){

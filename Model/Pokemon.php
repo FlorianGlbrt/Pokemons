@@ -11,6 +11,9 @@ class Pokemon extends AppModel
     public $belongsTo = array(
         'Joueur' => array(
             'counterCache' => true,
+        ),
+        'Pokedex' => array(
+            'CounterCache' => true,
         )
     );
 
@@ -23,6 +26,6 @@ class Pokemon extends AppModel
         ),
         'pv' => array(
             'rule' => 'notEmpty'
-        )
+        ),
     );
 }
