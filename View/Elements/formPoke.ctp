@@ -7,8 +7,10 @@
  */
 
 ?>
+
+
 <!-- Modal -->
-<div id="<?php echo $joueur['Joueur']['id'];?>" class="modal fade" role="dialog">
+<div id="<?php echo $joueur['Joueur']['id'];?>" data-backdrop="static" class="modal fade" tabindex="-1" role="dialog"aria-hidden="true">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -18,7 +20,7 @@
                 <h4 class="modal-title">Ajouter un Pokemon à <?php echo $joueur['Joueur']['pseudonyme'];?></h4>
             </div>
             <div class="modal-body container-fluid">
-                <form action="/pokemons/add/<?php echo $joueur['Joueur']['id']; ?>" id="PokemonIndexForm<?php echo $joueur['Joueur']['id']; ?>" method="post" accept-charset="utf-8" data-toggle="validator">
+                <form action="/pokemons/add/<?php echo $joueur['Joueur']['id']; ?>" class="eventInsForm" id="PokemonIndexForm<?php echo $joueur['Joueur']['id']; ?>" method="post" accept-charset="utf-8" data-toggle="validator">
                     <div style="display:none;">
                         <input type="hidden" name="_method" value="POST"/>
                     </div>
@@ -38,20 +40,27 @@
                         <input name="data[Pokemon][pv]" type="number" id="PokemonPv" required="required"/>
                     </div>
 
-                    <div class="input select required form-group has-feedback ">
-                        <label for="PokemonPokedexId">Pokedex</label>
-                        <select name="data[Pokemon][pokedex_id]" id="PokemonPokedexId">
-                            <?php
-                                foreach ($pokedexs as $pokedex):
-                                   ?> <option value="<?php echo $pokedex['Pokedex']['id'];?> "><?php echo $pokedex['Pokedex']['espece'];?></option><?php
-                                endforeach;
-                            ?>
-                        </select>
-                    </div>
-
+                    <label for="PokemonPokedexId">Espèce</label>
+                        <div class="input-group">
+                            <div class="input-group-addon" style="background-color: #ffffff; border-width: 0px;">
+                                <input type="text" id="recherche" />
+                            </div>
+                            <div class="">
+                                <div class="input select required form-group has-feedback ">
+                                    <select name="data[Pokemon][pokedex_id]" id="PokemonPokedexId">
+                                        <?php
+                                        foreach ($pokedexs as $pokedex):
+                                            ?> <option value="<?php echo $pokedex['Pokedex']['id'];?> "><?php echo $pokedex['Pokedex']['espece'];?></option><?php
+                                        endforeach;
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     <input type="hidden" name="data[Pokemon][joueur_id]" value="1" id="PokemonJoueurId"/>
 
-                    <div class="submit"><input  type="submit" value="Save Poke"/></div></form>
+                    <div class="submit"><input  type="submit" value="Save Poke"/></div>
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -60,3 +69,26 @@
 
     </div>
 </div>
+
+<script>
+
+
+    $(document).ready(function() {
+        $('#recherche').autocomplete({
+            source : list,
+
+            select : function(event, ui){ // lors de la sélection d'une proposition
+                $('#PokemonPokedexId option').eq(ui.item.desc-1).prop('selected', true);
+            }
+        });
+        $( "#recherche" ).autocomplete( "option", "appendTo", ".eventInsForm" );
+
+    });
+
+    var list = [
+        <?php  foreach ($pokedexs as $pokedex): ?>
+        { value : '<?php echo $pokedex['Pokedex']['espece'];?>', label : '<?php echo $pokedex['Pokedex']['espece'];?>', desc : '<?php echo $pokedex['Pokedex']['id'];?>'},
+        <?php endforeach; ?>
+    ];
+
+</script>

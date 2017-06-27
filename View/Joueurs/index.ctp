@@ -7,15 +7,20 @@
  */
 
 $this->start('head');
-echo "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>";
+echo $this->Html->script('jquery.js');
 echo $this->Html->css('cake.generic');
 echo $this->Html->script('bootstrap.min.js');
 echo $this->Html->script('validator.min.js');
+echo $this->Html->script('jquery-ui.min.js');
 echo $this->Html->css('bootstrap.min.css');
 echo $this->Html->css('default-background.css');
+echo $this->Html->css('jquery-ui.min.css');
+echo $this->Html->css('jquery-ui.structure.min.css');
+echo $this->Html->css('jquery-ui.theme.min.css');
 $this->end();
 echo $this->Js->writeBuffer(array('onDomReady' => false));
 ?>
+
 
     <p>
         <a class="btn btn-primary" href="/joueurs/add">Add joueur</a>
@@ -83,4 +88,5 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
             endforeach;
         endforeach;
         ?>
+
 
