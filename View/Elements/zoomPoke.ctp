@@ -18,10 +18,20 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-4">
-                        Id :
+                        Espèce :
                     </div>
                     <div class="col-sm-8">
-                        <?php echo $pokemon['id'];?>
+                        <?php echo $pokedex['espece'];?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        Type(s) :
+                    </div>
+                    <div class="col-sm-8">
+                        <?php foreach ($types as $type):
+                            echo $type['nom']." ";
+                        endforeach;?>
                     </div>
                 </div>
                 <div class="row">

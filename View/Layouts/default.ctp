@@ -7,7 +7,7 @@
 
 
 ?><html>
-<title>test maggle</title>
+<title>Poke site</title>
 <head><?php
     echo $this->fetch('head');
     ?>

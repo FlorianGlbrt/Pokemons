@@ -9,7 +9,7 @@
  */
 class PokemonsController extends AppController
 {
-    public $uses = array('Pokemon','Joueur');
+    public $uses = array('Pokemon','Joueur','Pokedex','Type');
     public $helpers = array('Html','Form','Session','Js');
     public $components = array('Session','RequestHandler');
 
