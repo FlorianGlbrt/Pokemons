@@ -30,6 +30,20 @@ class PokemonsController extends AppController
 
     }
 
+    public function delete($id){
+        if(!$id){
+            throw new NotFoundException("pokemon not found");
+        }elseif ($this->request->is('get')){
+            throw new MethodNotAllowedException();
+        }
+        if ($this->Pokemon->delete($id)){
+            $this->Session->setFlash(__("Pokemon %s successfully deleted", h($joueur['Joueur']['pseudonyme'])));
+        }else{
+            $this->Session->setFlash(__("Failed"));
+        }
+        return $this->redirect(array('controller' => 'joueurs' ,'action' => 'index'));
+    }
+
     public function getByJoueur() {
         if($this->request->is('ajax')) {
             $joueur_id = $this->request->data['joueur_id'];

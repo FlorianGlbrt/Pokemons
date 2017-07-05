@@ -1641,3 +1641,47 @@ Request URL: /i
 Stack Trace:
 #0 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-07-05 15:36:32 Error: [MissingActionException] Action PokemonsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PokemonsController',
+  'action' => 'index',
+)
+Request URL: /pokemons
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#2 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-07-05 15:37:01 Error: [MissingActionException] Action PokemonsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PokemonsController',
+  'action' => 'index',
+)
+Request URL: /pokemons
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#2 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-07-05 15:37:32 Error: [MissingActionException] Action PokemonsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PokemonsController',
+  'action' => 'index',
+)
+Request URL: /pokemons
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#2 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-07-05 15:37:40 Error: [MissingActionException] Action PokemonsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PokemonsController',
+  'action' => 'index',
+)
+Request URL: /pokemons/index/controler:joueur
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
+#2 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

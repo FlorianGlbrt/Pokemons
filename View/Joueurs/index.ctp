@@ -29,7 +29,7 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
 
         <table class="table-striped table-bordered table-responsive display nowrap" width="100%">
             <tr>
-                <th>Id</th>
+                <th>Actions</th>
                 <th>Pseudo</th>
                 <th>Niveau</th>
                 <th>Pokemons</th>
@@ -40,9 +40,6 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
                 <div>
                     <td>
                         <div class="input-group">
-                            <span class="input-group-addon">
-                                <?php echo $joueur['Joueur']['id']; ?>
-                            </span>
                             <?php echo $this->Form->postLink('Delete', array(
                                 'controller' => 'joueurs',
                                 'action' => 'delete',
@@ -62,6 +59,16 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
                              <span class="input-group-addon">
                                 <?php echo $pokemon['nom'];?>
                              </span>
+
+                             <?php echo $this->Form->postLink('Delete', array(
+                                 'controller' => 'pokemons',
+                                 'action' => 'delete',
+                                 $pokemon['id']
+                             ),
+                                 array(
+                                     'class' => 'btn btn-danger',
+                                     'confirm' => 'Are you sure ?'
+                                 )) ?>
                                 <button type="submit" class="btn btn-default" data-toggle="modal" data-target="#<?php echo 'p'.$pokemon['id']; ?>">Zoom in</button><?php echo '<br>'; ?>
                          </div>
                         <?php endforeach;?>
