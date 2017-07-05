@@ -76,9 +76,9 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
 </div>
 
 <?php
-    foreach ($joueurs as $joueur):
-        echo $this->element('formPoke', array('joueur' => $joueur ,'pokedexs' => $pokedexs));?>
+    foreach ($joueurs as $joueur):?>
         <?php
+        echo $this->element('formPoke', array('joueur' => $joueur));
     endforeach;
 
         echo "<br><br>";
@@ -89,4 +89,14 @@ echo $this->Js->writeBuffer(array('onDomReady' => false));
         endforeach;
         ?>
 
+<script>
+
+    var list = [
+        <?php  foreach ($pokedexs as $pokedex): ?>
+        { value : '<?php echo $pokedex['Pokedex']['espece'];?>', label : '<?php echo $pokedex['Pokedex']['espece'];?>', desc : '<?php echo $pokedex['Pokedex']['id'];?>'},
+        <?php endforeach; ?>
+    ];
+
+
+</script>
 

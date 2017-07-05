@@ -21,6 +21,7 @@ class JoueursController extends AppController
     public function add(){
         $this->set('joueurs',$this->Joueur->find('all'));
 
+
         if ($this->request->is('post')){
             $this->Joueur->create();
             if ($this->Joueur->save($this->request->data)){

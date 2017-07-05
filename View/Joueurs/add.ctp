@@ -65,8 +65,7 @@ $this->end();
 
 
         <div class="input number form-group input-group has-feedback">
-            <span class="input-group-addon control-label" for="JoueurNiveau">Niveau</span>
-            <input required name="data[Joueur][niveau]" id="JoueurNiveau" type="number" value="1" disabled>
+            <input required name="data[Joueur][niveau]" id="JoueurNiveau" type="number" value="1" hidden>
         </div>
 
 
