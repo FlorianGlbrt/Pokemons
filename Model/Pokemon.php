@@ -28,4 +28,23 @@ class Pokemon extends AppModel
             'rule' => 'notEmpty'
         ),
     );
+
+    public function getTypes(){
+        $pokedex = new Pokedex();
+        $pokedex = $pokedex->findById($this->data['Pokedex']['id']);
+        $types = $pokedex['Type'];
+        return $types;
+    }
+
+    public function getMultiplicateur(Pokemon $p2){
+        $multiplicateur = 1;
+        $t1s = $this->getTypes();
+        $t2s = $this->getTypes();
+        foreach ($t1s as $t1){
+            foreach ($t2s as $t2){
+
+            }
+        }
+        return $multiplicateur;
+    }
 }

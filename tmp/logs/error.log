@@ -1685,3 +1685,633 @@ Stack Trace:
 #1 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PokemonsController), Object(CakeRequest))
 #2 /home/florianguilbert/PhpstormProjects/poke/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2017-07-07 12:59:46 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:46 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:51 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:51 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:52 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:52 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:52 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:52 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:52 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:52 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:53 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:53 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 12:59:53 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 12:59:53 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:01 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:01 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:08 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:08 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:16 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:16 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:17 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:17 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:17 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:17 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:18 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:18 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:18 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:18 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:29 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:29 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:29 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:29 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:30 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:30 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:30 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:30 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:30 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:30 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:00:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:00:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:47 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:47 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:48 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:48 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:48 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:48 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:49 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:49 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:49 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:49 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:50 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:50 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:50 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:50 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:50 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:50 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:51 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:51 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:01:51 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:01:51 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:36 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:36 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:36 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:36 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:37 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:37 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:38 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:38 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:38 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:38 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:38 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:38 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:02:38 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:02:38 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:11 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Utility/String.php, line 229]
+2017-07-07 13:04:11 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/home/floriangu...', 229)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/home/floriangu...', 229, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/home/floriangu...', 229, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:44 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Utility/Debugger.php, line 433]
+2017-07-07 13:04:44 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/home/floriangu...', 433)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/home/floriangu...', 433, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/home/floriangu...', 433, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:44 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:04:44 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:44 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:04:44 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:44 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:04:44 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:04:44 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:04:44 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:43 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:43 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:44 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:44 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:45 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:45 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:45 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:45 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:45 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:45 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:05:45 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 81]
+2017-07-07 13:05:45 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 81, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:08:18 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:08:18 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:08:19 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:08:19 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:08:20 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:08:20 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-07 13:08:20 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-07 13:08:20 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:24 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:24 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:27 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:27 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:27 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:27 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:28 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:28 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:28 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:28 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-12 16:31:28 Error: Fatal Error (1): Call to a member function getTypes() on array in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 78]
+2017-07-12 16:31:28 Error: [FatalErrorException] Call to a member function getTypes() on array
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/floriangu...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/floriangu...', 78, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
