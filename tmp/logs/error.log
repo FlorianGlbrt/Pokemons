@@ -2345,3 +2345,13 @@ Stack Trace:
 #3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            2017-07-13 12:25:25 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/home/florianguilbert/PhpstormProjects/poke/View/Pokemons/fight.ctp, line 44]
+2017-07-13 12:25:25 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/home/floriangu...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/home/floriangu...', 44, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/home/floriangu...', 44, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

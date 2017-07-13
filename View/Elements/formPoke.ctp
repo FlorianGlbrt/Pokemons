@@ -49,7 +49,7 @@
                             </div>
                             <div class="">
                                 <div class="input select required form-group has-feedback ">
-                                    <select name="data[Pokemon][pokedex_id]" id="PokemonPokedexId">
+                                    <select name="data[Pokemon][pokedex_id]" id="PokemonPokedexId<?php echo $joueur['Joueur']['id'];?>">
                                         <?php
                                         foreach ($pokedexs as $pokedex):
                                             ?> <option value="<?php echo $pokedex['Pokedex']['id'];?> "><?php echo $pokedex['Pokedex']['espece'];?></option><?php
@@ -88,7 +88,7 @@
             source : list,
 
             select : function(event, ui){ // lors de la sélection d'une proposition
-                $('#PokemonPokedexId option').eq(ui.item.desc-1).prop('selected', true);
+                $('#PokemonPokedexId<?php echo $joueur['Joueur']['id'];?> option').eq(ui.item.desc-1).prop('selected', true);
             }
         });
         $( ".recherche" ).autocomplete( "option", "appendTo", ".eventInsForm<?php echo $joueur['Joueur']['id'];?>" );

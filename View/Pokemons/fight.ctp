@@ -28,30 +28,36 @@ if($m2 > 1){
     <div class="row text-center">
         <div class="col-md-6 text-center">
             <?php
-            echo "----- ".$p1['Pokemon']['nom']." ---> ".$p1['Pokemon']['pv']." PV, ".$p1['Pokemon']['niveau']."ATQ -----";
+            echo "----- ".$p1['Pokemon']['nom']." ---> ".$p1['Pokemon']['pv']." PV, ".$p1['Pokemon']['niveau']." ATQ de base -----";
             ?>
         </div>
         <div class="col-md-6 text-center">
             <?php
-            echo "----- ".$p2['Pokemon']['nom']." ---> ".$p2['Pokemon']['pv']." PV, ".$p2['Pokemon']['niveau']."ATQ -----";
+            echo "----- ".$p2['Pokemon']['nom']." ---> ".$p2['Pokemon']['pv']." PV, ".$p2['Pokemon']['niveau']." ATQ de base -----";
             ?>
         </div>
 
     </div>
     <br><br>
     <?php
-    while($p1['Pokemon']['pv'] >= 0 && $p2['Pokemon']['pv'] >= 0){
-        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau']*$m1;
-        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau']*$m2;
+    while($p1['Pokemon']['pv'] > 0 && $p2['Pokemon']['pv'] > 0){
+        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau']*$m2;
+        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau']*$m1;
+        if ($p1['Pokemon']['pv'] <= 0){
+            $p1['Pokemon']['pv'] = 0;
+        }
+        if ($p2['Pokemon']['pv'] <= 0){
+            $p2['Pokemon']['pv'] = 0;
+        }
         ?>
         <div class="row text-center">
             <?php
-               echo "----- ".$p1['Pokemon']['nom']." attaque ".$p2['Pokemon']['nom']." ! -".$p1['Pokemon']['niveau']*$m1." PV, ".$efficace1." ----->"
+               echo "----- ".$p1['Pokemon']['nom']." attaque ".$p2['Pokemon']['nom']." ! ".$efficace1." -".$p1['Pokemon']['niveau']*$m1." PV ----->"
             ?>
         </div>
         <div class="row text-center">
             <?php
-                echo "<----- ".$p2['Pokemon']['nom']." attaque ".$p1['Pokemon']['nom']." ! -".$p2['Pokemon']['niveau']*$m2." PV, ".$efficace2." -----"
+                echo "<----- ".$p2['Pokemon']['nom']." attaque ".$p1['Pokemon']['nom']." ! ".$efficace2." -".$p2['Pokemon']['niveau']*$m2." PV -----"
             ?>
         </div>
         <div class="row text-center">
