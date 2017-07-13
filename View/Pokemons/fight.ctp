@@ -28,12 +28,12 @@ if($m2 > 1){
     <div class="row text-center">
         <div class="col-md-6 text-center">
             <?php
-            echo "----- ".$p1['Pokemon']['nom']." ---> ".$p1['Pokemon']['pv']." PV -----";
+            echo "----- ".$p1['Pokemon']['nom']." ---> ".$p1['Pokemon']['pv']." PV, ".$p1['Pokemon']['niveau']."ATQ -----";
             ?>
         </div>
         <div class="col-md-6 text-center">
             <?php
-            echo "----- ".$p2['Pokemon']['nom']." ---> ".$p2['Pokemon']['pv']." PV -----";
+            echo "----- ".$p2['Pokemon']['nom']." ---> ".$p2['Pokemon']['pv']." PV, ".$p2['Pokemon']['niveau']."ATQ -----";
             ?>
         </div>
 
