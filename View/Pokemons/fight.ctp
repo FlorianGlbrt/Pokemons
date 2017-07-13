@@ -6,6 +6,22 @@
  * Time: 11:29
  */
 
+if($m1 > 1){
+    $efficace1 = "C'est super efficace !";
+}else if($m1 < 1){
+    $efficace1 = "Pas très efficace !";
+}else{
+    $efficace1 = "";
+}
+
+if($m2 > 1){
+    $efficace2 = "C'est super efficace !";
+}else if($m2 < 1){
+    $efficace2 = "Pas très efficace !";
+}else{
+    $efficace2 = "";
+}
+
 
 ?>
 <div class="container-fluid">
@@ -25,17 +41,17 @@
     <br><br>
     <?php
     while($p1['Pokemon']['pv'] >= 0 && $p2['Pokemon']['pv'] >= 0){
-        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau'];
-        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau'];
+        $p1['Pokemon']['pv'] = $p1['Pokemon']['pv'] - $p2['Pokemon']['niveau']*$m1;
+        $p2['Pokemon']['pv'] = $p2['Pokemon']['pv'] - $p1['Pokemon']['niveau']*$m2;
         ?>
         <div class="row text-center">
             <?php
-               echo "----- ".$p1['Pokemon']['nom']." attaque ".$p2['Pokemon']['nom']." ! -".$p1['Pokemon']['niveau']." PV ----->"
+               echo "----- ".$p1['Pokemon']['nom']." attaque ".$p2['Pokemon']['nom']." ! -".$p1['Pokemon']['niveau']*$m1." PV, ".$efficace1." ----->"
             ?>
         </div>
         <div class="row text-center">
             <?php
-                echo "<----- ".$p2['Pokemon']['nom']." attaque ".$p1['Pokemon']['nom']." ! -".$p2['Pokemon']['niveau']." PV -----"
+                echo "<----- ".$p2['Pokemon']['nom']." attaque ".$p1['Pokemon']['nom']." ! -".$p2['Pokemon']['niveau']*$m2." PV, ".$efficace2." -----"
             ?>
         </div>
         <div class="row text-center">

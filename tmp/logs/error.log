@@ -2315,3 +2315,33 @@ Stack Trace:
 #3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-07-13 11:25:28 Error: Fatal Error (1): Class 'Pokemon' not found in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 76]
+2017-07-13 11:25:28 Error: [FatalErrorException] Class 'Pokemon' not found
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-13 11:27:17 Error: Fatal Error (1): Class 'Pokemon' not found in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 76]
+2017-07-13 11:27:17 Error: [FatalErrorException] Class 'Pokemon' not found
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-07-13 11:27:18 Error: Fatal Error (1): Class 'Pokemon' not found in [/home/florianguilbert/PhpstormProjects/poke/Controller/PokemonsController.php, line 76]
+2017-07-13 11:27:18 Error: [FatalErrorException] Class 'Pokemon' not found
+Request URL: /pokemons/fight
+Stack Trace:
+#0 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#2 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Pokemon'...', '/home/floriangu...', 76, Array)
+#3 /home/florianguilbert/PhpstormProjects/poke/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

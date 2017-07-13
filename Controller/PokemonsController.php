@@ -73,15 +73,19 @@ class PokemonsController extends AppController
 
     public function fight() {
         if($this->request->is('ajax')) {
+            $data1 = $this->Pokemon->findById($this->request->data['P1']);
+            $data2 = $this->Pokemon->findById($this->request->data['P2']);
             $p1 = new Pokemon();
-            $p1->data = $this->Pokemon->findById($this->request->data['P1']);
+            $p1->data = $data1;
             $p2 = new Pokemon();
-            $p2->data = $this->Pokemon->findById($this->request->data['P2']);
+            $p2->data = $data2;
             $m1 = $p1->getMultiplicateur($p2);
-            $m2 = $p1->getMultiplicateur($p2);
+            $m2 = $p2->getMultiplicateur($p1);
             $this->layout = 'ajax';
             $this->set('p1' , $p1->data);
             $this->set('p2' , $p2->data);
+            $this->set('m1' , $m1);
+            $this->set('m2' , $m2);
         }
     }
 }

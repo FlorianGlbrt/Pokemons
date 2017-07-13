@@ -38,7 +38,7 @@
                     <br>
                     <div class="row">
                         <button disabled id="button1" class="btn btn-primary pull-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseExample">
-                            Comfirmer
+                            Confirmer
                         </button>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <br>
                     <div class="row">
                         <button disabled id="button2" class="btn btn-primary pull-right" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseExample">
-                            Comfirmer
+                            Confirmer
                         </button>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                             Corriger une erreur
                         </button>
                         <button id="button3" class="btn btn-primary pull-right" type="button" aria-expanded="false">
-                            Comfirmer
+                            Confirmer
                         </button>
                     </div>
                 </div>
